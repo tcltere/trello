@@ -1,0 +1,21 @@
+.cont{
+	background: #0079AA;
+	width: 100%;
+	height: 600px;
+	
+
+}
+.barra{
+	background: #008CC5;
+	width: 100%;
+	height: 100px;
+
+}
+li{
+	color: #fff;
+	display: inline-block;
+	margin:20px;
+	background: #53A3C3;
+	width: 20px;
+	height: 30px;
+}
