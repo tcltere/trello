@@ -1,57 +1,114 @@
 body{
-	margin: 0;
-	padding: 0;
-	background: #008CC5;
+	margin: auto;
+  background-color: #0079BF;
+  padding: 0;
 
 }
 
-.navegador{
-	background: #008DC5;
+header {
+	background-color: #0067A3;
+  text-align: center;
 }
 
-.wrapper{
-	width: 100%;
-	height: 800px;
-	padding: 0;
-	margin: 20px;
+#navegadorIzquierda{
+	display: inline-block;
+  position: absolute;
+  left: 0px;
+
+
+}
+.logo {
+  opacity: 0.3;
+  margin: 5px;
+  display: inline-block;
+  width: 30px;
+
+}
+#navegador-Derecho{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+ 
 
 }
 
-.lista .targeta{
-	width: 200px;
+.Btn{
+  
+  background-color: #53A3C3
+
+}
+.fa {
+  color: #fff
+
+}
+
+ .tarjeta {
 	height: auto;
 	padding: 5px;
-	display: inline-block;
+	display: inline-block ;
 
 }
 
-.btn{
+.Btn{
 
-	background: #5AAC44;
     color: #fff;
     border: none;
     padding: 5px;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 5px;
-    border-radius:5px;
+    border-radius:2px;
     
+}
+
+.tableros .Btn, p, .fa{
+  margin-top: 0;
+  display: inline-block;
+  margin:5px;
 }
 .after input{
 
 	width: 100px;
 	height: 800px;
-    border-radius:5px;
+  border-radius:5px;
   cursor: pointer;
   background-color: #E5E6E9;
 }
+#Tabla1{
+  display: none;
+}
 
+.tarjeta  {
+  display: inline-block;
+}
+
+.fa-star-o{
+  display: inline-block;
+}
+h4, p{
+  display: inline-block;
+  color: #fff;
+}
+#btnIngresar{
+  width: 20%;
+  height: 40px;
+  border-radius:3px;
+  background-color:#2061bc;
+  display: inline-block;
+
+}
+#list div{
+  display: inline-block;
+}
+#list{
+  float: left;
+}
 .lista{
 
   width: 100px;
   height: auto;
   border-radius:5px;
   cursor: pointer;
-  background-color: #E2E4E6;
+  background-color:#fff;
   display: inline-block;
   vertical-align: top;
 }
