@@ -97,11 +97,40 @@ h4, p{
 
 }
 #list div{
+  width: 200px;
+  height: 100px;
+  background: #E2E4E6;
   display: inline-block;
+  border-radius: 4px;
+  width: 200px;
+  vertical-align: top;
+  margin: 20px;
+
+}
+input{
+  font-size: 16px;
+  padding: 10px;
+  width: 200px;
+  border:none;
+  border-radius: 3px;
+
+}
 }
 #list{
   float: left;
+
 }
+#btnSave{
+    background-color: #5EB72E;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: none;
+
+  }
+
 .lista{
 
   width: 100px;
